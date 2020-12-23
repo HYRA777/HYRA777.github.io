@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: #333333;
+}
+
+.s1{
+    height: 100vh;
+    background: url(./img/teater_epta.png) center center/cover;
+    padding-top: 50px;
+}
+
+.container{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav_text{
+    /* font-family: Open Sans Condensed; */
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.5s all;
+}
+
+.nav_text:hover{
+    color: #a0a0a0;
+}
+
+.nav_cont1{
+    display: flex;
+}
+
+.nav_cont2{
+    width: 120px;
+    margin-left: 167px;
+}
+
+.nav_phone{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav_line{
+    height: 2px;
+    background-color: #D1A954;
+    margin-top: 2px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header_epta_text{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.header_epta3{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 39px;
+
+    width: 160px;
+    height: 50px;
+    background: #D1A954;
+    transition: 0.5s all;
+}
+
+.header_epta2{
+    position: relative;
+    width: 370px;
+    height: 510px;
+    margin-left: 125px;
+}
+
+.header_epta{
+    width: 540px;
+}
+
+.header_epta2_img1{
+    position: absolute;
+    z-index: 100;
+
+}
+
+.header_epta2_img2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    margin-top: 190px;
+}
+
+.main{
+    margin-top: 150px;
+}
+
+.blackBlock_title{
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.blackBlock_text_teater{
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.blackBlock_text2{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.blackBlock_theater{
+    width: 445px;
+}
+.number_title{
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.number_img1{
+    margin-top: 40px;
+}
+
+.number_title2{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.number_img2{
+    margin-top: 25px;
+}
+
+.blackBlock_number{
+    margin-left: 30px;
+    width: 255px;
+}
+
+.number_img3{
+    margin-left: 30px;
+}
+
+.blackBlock_cont{
+    display: flex;
+    margin-top: 100px;
+}
+
+.main_photokino{
+    margin-top: 150px;
+}
+
+.photokino_title{
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.photo_cont{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -230px;
+}
+
+.main_star-teatr{
+    width: 1110px;
+    height: 550px;
+    margin: 0 auto;
+    background: url(./img/teater23.png) center center/cover;     
+    margin-top: 150px; 
+    padding-left: 190px;
+    padding-right: 95px;
+}
+
+.star-teatr_numbers{
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+}
+
+.star-teatr_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.star-teatrs_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.star-star_conteiner{
+    width: 540px;
+    margin-left: 103px;
+}
+
+.main_partnery_title{
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.main_partnery{
+    padding-top: 150px;
+}
+
+.zaz_line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.main_mezenant_title{
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+
+.main_mezenant_nomer1{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main_mezenant_phone1_input{
+    width: 180px;
+    height: 35px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    padding-left: 15px;
+    padding-right: 23px;
+}
+
+.main_mezenant_name{
+    width: 745px;
+}
+
+.main_mezenant_phone1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_mezenant_phone{
+    display: flex;
+}
+
+.input_valera{
+    width: 310px;
+    height: 100px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    padding-bottom: 65px;
+    padding-left: 15px;
+}
+
+.main_cent{
+    font-size: 12px;
+    color: #989898;
+    width: 390px;
+}
+
+.main_cent_btn{
+    width: 190px;
+    height: 50px;
+    background: #D1A954;
+
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.5s all;
+}
+
+.main_cent_btn:hover{
+    background: #92763a;
+}
+
+.header_epta3:hover{
+    background: #92763a;
+}
+
+.main_mezenant_send{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.main_mezenant_cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main_line{
+    background-color: #565656;
+    height: 1px;
+    margin-top: 80px;
+
+}
+.main_footer_text1{
+    font-size: 12px;
+    color: #989898;
+}
+
+.main_footer_text2{
+    font-size: 12px;
+    color: #989898;
+}
+
+.main_footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color_gold{
+    color: #D1A954;
+}
+
+.ml63{
+    margin-left: 63px;
+}
+
+.ml25{
+    margin-left: 25px;
+}
+
+.mt25{
+    margin-top: 25px;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.ml30{
+    margin-left: 30px;
+}
+
+.ml45{
+    margin-left: 45px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav_cont2{
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .nac_text{
+        font-size: 14px;
+    }
+    .container{
+        width: 85%;
+    }
+    .header_epta2{
+        display: none;
+    }
+    .s1{
+        height: 70vh;
+    }
+    .number_img1{
+        display: none;
+    }
+    .blackBlock_img{
+        display: none;
+    }
+    .photo_cont{
+        margin-left: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .star-teatr_container{
+        width: 80%;
+    }
+
+    .main_star-teatr{
+        padding-left: 40px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .none{
+        display: none;
+    }
+    .main_mezenant_phone1_input{
+        width: 150px;
+    }
+    .input_valera{
+        width: 200px;
+    }
+    .main_mezenant_name{
+        width: auto;
+    }
+    .main_mezenant_nomer1{
+        font-size: 13px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){   
+    .container{
+        width: 90%;
+    }
+    
+    .main_mezenant_cont{
+        flex-direction: column-reverse;
+    }
+
+    .ml30{
+        margin-left: 0;
+    }
+
+    .ml45{
+        margin-left: 0;
+    }
+    
+    .main_mezenant_phone{
+        justify-content: space-between;
+    }
+
+    .input_valera{
+        width: 280px;
+    }
+
+    .mt25{
+        margin-top: 0px;
+    }
+
+    .mt25_768px{
+        margin-top: 25px;
+    }
+
+    .main_mezenant_nomer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    
+    .main_mezenant_nomer12{
+        text-align: left;
+    }
+
+    .main_mezenant_nomer10{
+        text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
